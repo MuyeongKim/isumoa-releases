@@ -1,13 +1,13 @@
 # 이수모아 Windows 배포판
 
-법정교육 이수증을 모아 검수하고, 직원별 이수 현황과 제출 자료를 만드는 Windows 프로그램입니다. 현재 **0.5.0 · 부서 시범운용용**입니다.
+법정교육 이수증을 모아 검수하고, 직원별 이수 현황과 제출 자료를 만드는 Windows 프로그램입니다. 현재 **0.5.1 · 부서 시범운용용**입니다.
 
 ## 다운로드
 
-- **[Windows 설치 EXE 받기](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.0/isumoa-setup-0.5.0-win-x64.exe)**
-- [ZIP 설치판](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.0/isumoa-setup-0.5.0-win-x64.zip)
-- [PC 설치 안내](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.0/PC-install-guide-0.5.0.md)
-- [검증 결과와 확인할 범위](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.0/validation-report-0.5.0.md)
+- **[Windows 설치 EXE 받기](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.1/isumoa-setup-0.5.1-win-x64.exe)**
+- [ZIP 설치판](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.1/isumoa-setup-0.5.1-win-x64.zip)
+- [PC 설치 안내](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.1/PC-install-guide-0.5.1.md)
+- [검증 결과와 확인할 범위](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.1/validation-report-0.5.1.md)
 - [모든 릴리스](https://github.com/MuyeongKim/isumoa-releases/releases)
 
 GitHub 로그인 없이 누구나 내려받을 수 있습니다. Windows 10·11 64비트, 디스크 여유 공간 2GB 이상이 필요합니다. 필요한 구성요소는 함께 설치됩니다.
@@ -32,3 +32,5 @@ GitHub 로그인 없이 누구나 내려받을 수 있습니다. Windows 10·11 
 이 저장소는 배포 파일 전용입니다. 배포 파일은 GitHub Releases에서 관리하며 GitLab 안내에서도 같은 링크를 사용합니다.
 
 **미서명 시범 배포본이며 Windows 실기기 설치·업데이트는 아직 미검증입니다.** 먼저 부서의 시험용 PC에서 검증 요약의 항목을 확인하세요.
+
+0.5.1 보안 보완: PC 접속 주소·변경 요청 출처 확인과 주민번호 텍스트 가리기를 강화했습니다. 원본·이미지·DB·백업은 앱 자체 암호화가 없으므로 PC와 백업 접근 권한을 관리하세요. 검토 결과는 악성코드 부재 인증서가 아니며 Windows 실기기 백신 검사는 별도 확인이 필요합니다.
