@@ -1,13 +1,13 @@
 # 이수모아 Windows 배포판
 
-법정교육 이수증을 모아 검수하고, 직원별 이수 현황과 제출 자료를 만드는 Windows 프로그램입니다. 현재 **0.5.1 · 부서 시범운용용**입니다.
+법정교육 이수증을 모아 검수하고, 직원별 이수 현황과 제출 자료를 만드는 Windows 프로그램입니다. 현재 **0.5.2 · 부서 시범운용용**입니다.
 
 ## 다운로드
 
-- **[Windows 설치 EXE 받기](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.1/isumoa-setup-0.5.1-win-x64.exe)**
-- [ZIP 설치판](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.1/isumoa-setup-0.5.1-win-x64.zip)
-- [PC 설치 안내](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.1/PC-install-guide-0.5.1.md)
-- [검증 결과와 확인할 범위](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.1/validation-report-0.5.1.md)
+- **[Windows 설치 EXE 받기](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.2/isumoa-setup-0.5.2-win-x64.exe)**
+- [ZIP 설치판](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.2/isumoa-setup-0.5.2-win-x64.zip)
+- [PC 설치 안내](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.2/PC-install-guide-0.5.2.md)
+- [검증 결과와 확인할 범위](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.2/validation-report-0.5.2.md)
 - [모든 릴리스](https://github.com/MuyeongKim/isumoa-releases/releases)
 
 GitHub 로그인 없이 누구나 내려받을 수 있습니다. Windows 10·11 64비트, 디스크 여유 공간 2GB 이상이 필요합니다. 필요한 구성요소는 함께 설치됩니다.
@@ -18,7 +18,7 @@ GitHub 로그인 없이 누구나 내려받을 수 있습니다. Windows 10·11 
 2. 기관명과 관리자 계정을 직접 설정합니다.
 3. **직원 명단 → 일괄 등록 → 빈 양식 다운로드**로 받은 엑셀에 명단을 채워 올립니다.
 4. 기본 교육 16개를 기관 지침과 대조합니다. 개인정보보호 기본값은 연 1시간입니다.
-5. PDF·사진 수료증을 올리고, 검수함에서 원본과 읽은 값을 대조해 확정합니다.
+5. PDF·사진 수료증 또는 이들을 모은 ZIP을 올리고, 검수함에서 원본과 읽은 값을 대조해 확정합니다.
 6. 내보내기에서 현황 엑셀·개인별 PDF·수료증 ZIP 또는 **최종 제출 명단 (16시트)**을 받습니다.
 
 최종 제출 명단은 선택 범위의 적용 교육이 모두 충족되고 검수 대기가 없어야 출력됩니다. 현원은 빈칸이며 같은 직원의 여러 증서는 각각 쓰되 이수 인원은 한 명으로 계산합니다.
@@ -33,4 +33,6 @@ GitHub 로그인 없이 누구나 내려받을 수 있습니다. Windows 10·11 
 
 **미서명 시범 배포본이며 Windows 실기기 설치·업데이트는 아직 미검증입니다.** 먼저 부서의 시험용 PC에서 검증 요약의 항목을 확인하세요.
 
-0.5.1 보안 보완: PC 접속 주소·변경 요청 출처 확인과 주민번호 텍스트 가리기를 강화했습니다. 원본·이미지·DB·백업은 앱 자체 암호화가 없으므로 PC와 백업 접근 권한을 관리하세요. 검토 결과는 악성코드 부재 인증서가 아니며 Windows 실기기 백신 검사는 별도 확인이 필요합니다.
+0.5.2 보안 보완: PC 접속 주소·변경 요청 출처 확인과 주민번호 텍스트 가리기를 강화했습니다. 원본·이미지·DB·백업은 앱 자체 암호화가 없으므로 PC와 백업 접근 권한을 관리하세요. 검토 결과는 악성코드 부재 인증서가 아니며 Windows 실기기 백신 검사는 별도 확인이 필요합니다.
+
+0.5.2에서는 수료증을 모은 ZIP을 같은 입력 칸에 선택하거나 끌어 놓을 수 있습니다. 폴더 안의 PDF·사진을 찾아 검수함으로 보내며 파일별 성공·중복·실패와 건너뛴 사유를 보여줍니다. ZIP300MB·개별100MB·압축 해제 합계500MB·수료증1000개 이하를 지원합니다. 암호·중첩 ZIP·RAR·7z는 직접 풀어 올려 주세요.
