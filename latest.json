@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/426629976",
-  "assets_url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/426629976/assets",
-  "upload_url": "https://uploads.github.com/repos/MuyeongKim/isumoa-releases/releases/426629976/assets{?name,label}",
-  "html_url": "https://github.com/MuyeongKim/isumoa-releases/releases/tag/v0.5.0",
-  "id": 426629976,
+  "url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/427275659",
+  "assets_url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/427275659/assets",
+  "upload_url": "https://uploads.github.com/repos/MuyeongKim/isumoa-releases/releases/427275659/assets{?name,label}",
+  "html_url": "https://github.com/MuyeongKim/isumoa-releases/releases/tag/v0.5.1",
+  "id": 427275659,
   "author": {
     "login": "MuyeongKim",
     "id": 126836104,
@@ -25,22 +25,22 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOVad-5M4ZbdtY",
-  "tag_name": "v0.5.0",
+  "node_id": "RE_kwDOVad-5M4Zd7WL",
+  "tag_name": "v0.5.1",
   "target_commitish": "main",
-  "name": "이수모아 0.5.0 · 직원 양식·16시트 제출·업데이트",
+  "name": "이수모아 0.5.1 · 개인정보·요청 경계 보안 보완",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-28T12:17:50Z",
-  "updated_at": "2026-10-28T12:21:38Z",
-  "published_at": "2026-10-28T12:21:38Z",
+  "created_at": "2026-10-28T12:21:40Z",
+  "updated_at": "2026-10-28T22:49:02Z",
+  "published_at": "2026-10-28T22:49:02Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/assets/684909223",
-      "id": 684909223,
-      "node_id": "RA_kwDOVad-5M4o0uKn",
-      "name": "isumoa-setup-0.5.0-win-x64.exe",
+      "url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/assets/686596029",
+      "id": 686596029,
+      "node_id": "RA_kwDOVad-5M4o7J-9",
+      "name": "isumoa-setup-0.5.1-win-x64.exe",
       "label": "",
       "uploader": {
         "login": "MuyeongKim",
@@ -65,18 +65,18 @@
       },
       "content_type": "application/x-msdownload",
       "state": "uploaded",
-      "size": 118393423,
-      "digest": "sha256:aef4e1660cb5bded4c98495cad2164d5c5b88b8e01839e73b78268ca8fb0e4db",
+      "size": 118396561,
+      "digest": "sha256:9092ddeccdd35f249d54bc960eb6d6b81165a947018293e015104cd0de3e571b",
       "download_count": 0,
-      "created_at": "2026-10-28T12:20:29Z",
-      "updated_at": "2026-10-28T12:20:37Z",
-      "browser_download_url": "https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.0/isumoa-setup-0.5.0-win-x64.exe"
+      "created_at": "2026-10-28T22:47:30Z",
+      "updated_at": "2026-10-28T22:47:40Z",
+      "browser_download_url": "https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.1/isumoa-setup-0.5.1-win-x64.exe"
     },
     {
-      "url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/assets/684909220",
-      "id": 684909220,
-      "node_id": "RA_kwDOVad-5M4o0uKk",
-      "name": "isumoa-setup-0.5.0-win-x64.zip",
+      "url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/assets/686596026",
+      "id": 686596026,
+      "node_id": "RA_kwDOVad-5M4o7J-6",
+      "name": "isumoa-setup-0.5.1-win-x64.zip",
       "label": "",
       "uploader": {
         "login": "MuyeongKim",
@@ -101,18 +101,18 @@
       },
       "content_type": "application/zip",
       "state": "uploaded",
-      "size": 179855524,
-      "digest": "sha256:e2c7206fbea34eca477054ca80d35052d244a634ffe6720cdd957469cdc9fa98",
+      "size": 179856737,
+      "digest": "sha256:de46ccb1c14ab5457329a8fab105c254768a8571450c110e7d254b7f837667e2",
       "download_count": 0,
-      "created_at": "2026-10-28T12:20:29Z",
-      "updated_at": "2026-10-28T12:20:42Z",
-      "browser_download_url": "https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.0/isumoa-setup-0.5.0-win-x64.zip"
+      "created_at": "2026-10-28T22:47:30Z",
+      "updated_at": "2026-10-28T22:47:43Z",
+      "browser_download_url": "https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.1/isumoa-setup-0.5.1-win-x64.zip"
     },
     {
-      "url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/assets/684901958",
-      "id": 684901958,
-      "node_id": "RA_kwDOVad-5M4o0sZG",
-      "name": "PC-install-guide-0.5.0.md",
+      "url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/assets/686596028",
+      "id": 686596028,
+      "node_id": "RA_kwDOVad-5M4o7J-8",
+      "name": "PC-install-guide-0.5.1.md",
       "label": "",
       "uploader": {
         "login": "MuyeongKim",
@@ -140,14 +140,14 @@
       "size": 7388,
       "digest": "sha256:c81e7381ec81b2327cedc6d11fe43593731c79f8c2509ad01df4bd27fe227e83",
       "download_count": 0,
-      "created_at": "2026-10-28T12:17:52Z",
-      "updated_at": "2026-10-28T12:17:52Z",
-      "browser_download_url": "https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.0/PC-install-guide-0.5.0.md"
+      "created_at": "2026-10-28T22:47:30Z",
+      "updated_at": "2026-10-28T22:47:30Z",
+      "browser_download_url": "https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.1/PC-install-guide-0.5.1.md"
     },
     {
-      "url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/assets/684909222",
-      "id": 684909222,
-      "node_id": "RA_kwDOVad-5M4o0uKm",
+      "url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/assets/686596022",
+      "id": 686596022,
+      "node_id": "RA_kwDOVad-5M4o7J-2",
       "name": "SHA256SUMS",
       "label": "",
       "uploader": {
@@ -174,17 +174,17 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 379,
-      "digest": "sha256:46012d6c999572bb21c7a7480d17d1de1b023900711ad078bf3a914b741df470",
+      "digest": "sha256:80a8b6c06a864f5c70629805f46eeb62ec2736de8c50148d8782dcc59837311e",
       "download_count": 0,
-      "created_at": "2026-10-28T12:20:29Z",
-      "updated_at": "2026-10-28T12:20:29Z",
-      "browser_download_url": "https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.0/SHA256SUMS"
+      "created_at": "2026-10-28T22:47:30Z",
+      "updated_at": "2026-10-28T22:47:30Z",
+      "browser_download_url": "https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.1/SHA256SUMS"
     },
     {
-      "url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/assets/684909224",
-      "id": 684909224,
-      "node_id": "RA_kwDOVad-5M4o0uKo",
-      "name": "validation-report-0.5.0.md",
+      "url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/assets/686596027",
+      "id": 686596027,
+      "node_id": "RA_kwDOVad-5M4o7J-7",
+      "name": "validation-report-0.5.1.md",
       "label": "",
       "uploader": {
         "login": "MuyeongKim",
@@ -209,15 +209,15 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 3079,
-      "digest": "sha256:a9150715c6854885147750214a4b7398b99025f5be8e86addb6b4b933cad33e8",
+      "size": 2740,
+      "digest": "sha256:b4c1aa2c48b7a2b4688e0a942ef7ad0bb36b4c1269c4281f5e9b8a0da0c21b13",
       "download_count": 0,
-      "created_at": "2026-10-28T12:20:29Z",
-      "updated_at": "2026-10-28T12:20:29Z",
-      "browser_download_url": "https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.0/validation-report-0.5.0.md"
+      "created_at": "2026-10-28T22:47:30Z",
+      "updated_at": "2026-10-28T22:47:30Z",
+      "browser_download_url": "https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.1/validation-report-0.5.1.md"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/tarball/v0.5.0",
-  "zipball_url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/zipball/v0.5.0",
-  "body": "# 이수모아 0.5.0 검증 요약\n\n2026-10-28, 부서 시범운용용 미서명 Windows 10·11 x64 설치판입니다.\n\n## 추가 기능\n\n- 직원 일괄등록 빈 엑셀 양식(사번 앞자리 0·재직 상태 목록·작성 안내).\n- 신규 설치에 현행 교육 16개와 공통 과정 매핑 제공. 개인정보보호 연 1시간. 기존 기준·수료증은 덮어쓰지 않음.\n- 제공된 2026년 16시트 제출 양식에 기관·부서·계급·기관·과정·시간·수료일·증서번호 출력. 현원 빈칸. 여러 증서는 개별 행으로, 이수 인원은 직원별 중복 제거.\n- 선택 범위의 적용 교육 전체 충족 및 검수 대기 없음 조건을 다운로드 시 재확인. 미충족은 목록 안내.\n- 설정에서 공개 배포 확인·파일 검사·백업 후 설치. 인터넷 접속이 어려우면 EXE와 SHA-256 수동 입력 지원. 설치·기동 실패 시 이전 프로그램·자료 복구 시도.\n\n## 이 버전에서 확인한 증거\n\n- TypeScript 서버·웹 검사 통과, 자동 회귀 36개 파일 / 323개 테스트 통과.\n- 실제 브라우저에서 신규 설정 → 빈 양식 다운로드 → 가상 직원 2명 일괄 등록 → 수료증 PDF 34건 업로드·검수·확정 → 최종 16시트 다운로드 확인.\n- 미달 32항목 출력 차단과 충족 후 출력 확인. 모든 시트의 이수 인원 2명, 현원 빈칸, 세로 방향, 청렴교육 2+3시간 증서 4행과 실제 증서번호 확인.\n- 가상 Windows 환경에서 업데이트 확인·다운로드·검사·백업·모의 도우미 전달·완료 화면 확인. 모의 EXE는 실행하지 않음.\n- PowerShell 유지보수 35항목 + 별도 프로세스 잠금 3항목 + 업데이트 성공·준비 실패·설치 실패·기동 실패·복구 실패 흐름 5항목 통과.\n- EXE에서 추출한 프로그램·설치 스크립트 12,178개 파일이 패키징 원본과 SHA-256 일치. Windows x64 Node·OCR 네이티브 파일 9개 및 로컬 OCR 모델 확인.\n- 새 업데이트 도우미·종료 후 백업 스크립트·빈 16시트 양식이 실제 EXE에 포함됨을 확인. 운영 DB·원본 수료증·계정 비밀번호·개발자 개인 경로 미포함 점검.\n- EXE에서 추출한 백업·복원 스크립트로 분리된 경로에 가상 수료증 34건과 원본·쪽 자료 69개를 실제 복원하고 업무 테이블과 파일 해시 일치 확인.\n\n## 별도 확인이 필요한 범위\n\n검증 환경은 macOS ARM64입니다. Windows 실기기 EXE 설치·재실행·기존 0.4.3 덮어 설치·실제 업데이트 및 롤백, 기관 보안 프로그램, Excel/한셀 화면·인쇄 결과는 미검증입니다. 자동 검사와 모의 실행을 Windows 실기기 통과로 간주하지 않습니다. 코드 서명은 없습니다.\n\n먼저 부서의 시험용 PC에서 새 설치와 복사한 자료로 업데이트·백업·복원을 확인한 뒤 시범운용하세요. 0.4.3 이하는 0.5.0 EXE를 직접 실행해 먼저 업데이트합니다. 교육 기준은 기관 지침과 대조해 사용합니다.\n"
+  "tarball_url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/tarball/v0.5.1",
+  "zipball_url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/zipball/v0.5.1",
+  "body": "# 이수모아 0.5.1 보안 보완판\n\n2026-10-29 · Windows 10·11 x64 · 부서 시범운용용 미서명 설치판\n\n## 보완 내용\n\n- 직접 PC판과 선택적 로그인 생략 모드의 접속 주소를 검사하고 변경 요청의 출처 검사를 추가했습니다.\n- 하이픈 없는 주민번호와 OCR 공백 형식도 읽은 텍스트에서 가리며 기존 자료를 한 번 재검사합니다. 원본 PDF·사진·쪽 이미지는 보존합니다.\n- 개발용 보안 재검사 명령과 개인정보·외부 통신·백업 보호 범위 안내를 추가했습니다.\n- 0.5.0의 직원 명단 빈 양식·교육 16개·최종 제출 16시트·업데이트 기능과 검증 규칙을 유지합니다.\n\n## 확인한 범위\n\n- 전체 자동 회귀 38개 파일 / 329개, 보안 전용 6개 파일 / 41개 및 TypeScript 검사 통과.\n- 배포 의존성과 전체 의존성의 알려진 취약점 조회 0건(검사 시점). Gitleaks로 로컬 Git 이력 검사에서 비밀키 유출 탐지 0건.\n- 기본·대체 OCR에 JavaScript HTTP·socket 차단을 적용한 macOS 시험에서 한국어 자체 점검 이미지 판독 성공, 통신 시도 기록 0건. 문서를 외부 OCR 서비스로 업로드하는 기능을 사용하지 않습니다.\n- EXE에서 추출한 프로그램·설치 스크립트 12,179개 파일의 SHA-256이 패키징 원본과 일치했습니다. Windows x64 네이티브 파일 9개, 로컬 OCR 모델, 새 요청 검사 코드 포함을 확인했습니다. 운영 DB·원본 수료증·계정 비밀번호는 배포하지 않습니다.\n- PowerShell 유지보수 35항목, 별도 프로세스 잠금 3항목, 업데이트 성공·실패·복구 흐름 5항목 통과.\n\n## 보안 해석과 한계\n\n검토한 앱 코드에서 몰래 업무 자료를 외부로 보내거나 원격제어·키 입력 수집·채굴·보안제품을 끄는 악성 동작의 근거는 발견하지 못했습니다. 정적 검사와 취약점 조회 통과는 악성코드 부재 인증이나 미공개 취약점의 부재 보증이 아닙니다.\n\n업데이트 확인·다운로드 때 GitHub에 HTTPS로 접속하며 직원·수료증·앱 쿠키를 보내지 않습니다. EXE는 코드 서명이 없어 배포 계정·HTTPS·체크섬을 신뢰합니다. 원본 수료증·이미지·DB·백업은 앱 자체 암호화가 없으므로 PC 계정·디스크·백업 폴더 권한으로 보호해야 합니다.\n\nWindows 실기기 설치·실제 업데이트·롤백·네이티브 라이브러리 통신·Microsoft Defender/기관 백신 검사는 미실시입니다. 기존 설치판은 설정의 업데이트 또는 최신 EXE 덮어 설치를 사용하며, 먼저 별도 시험 PC와 복사한 자료로 확인하세요.\n"
 }
