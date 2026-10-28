@@ -1,0 +1,34 @@
+# 이수모아 Windows 배포판
+
+법정교육 이수증을 모아 검수하고, 직원별 이수 현황과 제출 자료를 만드는 Windows 프로그램입니다. 현재 **0.5.0 · 부서 시범운용용**입니다.
+
+## 다운로드
+
+- **[Windows 설치 EXE 받기](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.0/isumoa-setup-0.5.0-win-x64.exe)**
+- [ZIP 설치판](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.0/isumoa-setup-0.5.0-win-x64.zip)
+- [PC 설치 안내](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.0/PC-install-guide-0.5.0.md)
+- [검증 결과와 확인할 범위](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.0/validation-report-0.5.0.md)
+- [모든 릴리스](https://github.com/MuyeongKim/isumoa-releases/releases)
+
+GitHub 로그인 없이 누구나 내려받을 수 있습니다. Windows 10·11 64비트, 디스크 여유 공간 2GB 이상이 필요합니다. 필요한 구성요소는 함께 설치됩니다.
+
+## 처음 사용하는 순서
+
+1. EXE를 실행해 설치하고 바탕화면의 **이수모아**를 엽니다.
+2. 기관명과 관리자 계정을 직접 설정합니다.
+3. **직원 명단 → 일괄 등록 → 빈 양식 다운로드**로 받은 엑셀에 명단을 채워 올립니다.
+4. 기본 교육 16개를 기관 지침과 대조합니다. 개인정보보호 기본값은 연 1시간입니다.
+5. PDF·사진 수료증을 올리고, 검수함에서 원본과 읽은 값을 대조해 확정합니다.
+6. 내보내기에서 현황 엑셀·개인별 PDF·수료증 ZIP 또는 **최종 제출 명단 (16시트)**을 받습니다.
+
+최종 제출 명단은 선택 범위의 적용 교육이 모두 충족되고 검수 대기가 없어야 출력됩니다. 현원은 빈칸이며 같은 직원의 여러 증서는 각각 쓰되 이수 인원은 한 명으로 계산합니다.
+
+## 업데이트와 자료
+
+0.5.0부터 **설정 → 업데이트**에서 버전 확인·다운로드·백업 후 설치를 제공합니다. **0.4.3 이하는 이번 EXE를 직접 실행해 한 번 업데이트**하세요. 기존 기관 정보·직원·수료증과 사용자 지정 교육 기준은 유지합니다.
+
+직원 자료와 수료증은 사용하는 PC에 보관합니다. 업데이트 확인·다운로드 때는 GitHub에 접속하며 업무 자료는 보내지 않습니다. 설정의 백업 기능으로 백업을 만들고 다른 디스크에도 보관하세요.
+
+이 저장소는 배포 파일 전용입니다. 배포 파일은 GitHub Releases에서 관리하며 GitLab 안내에서도 같은 링크를 사용합니다.
+
+**미서명 시범 배포본이며 Windows 실기기 설치·업데이트는 아직 미검증입니다.** 먼저 부서의 시험용 PC에서 검증 요약의 항목을 확인하세요.
