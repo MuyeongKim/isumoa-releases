@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/427464710",
-  "assets_url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/427464710/assets",
-  "upload_url": "https://uploads.github.com/repos/MuyeongKim/isumoa-releases/releases/427464710/assets{?name,label}",
-  "html_url": "https://github.com/MuyeongKim/isumoa-releases/releases/tag/v0.5.4",
-  "id": 427464710,
+  "url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/427752505",
+  "assets_url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/427752505/assets",
+  "upload_url": "https://uploads.github.com/repos/MuyeongKim/isumoa-releases/releases/427752505/assets{?name,label}",
+  "html_url": "https://github.com/MuyeongKim/isumoa-releases/releases/tag/v0.5.5",
+  "id": 427752505,
   "author": {
     "login": "MuyeongKim",
     "id": 126836104,
@@ -25,22 +25,22 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOVad-5M4ZepgG",
-  "tag_name": "v0.5.4",
+  "node_id": "RE_kwDOVad-5M4Zfvw5",
+  "tag_name": "v0.5.5",
   "target_commitish": "main",
-  "name": "이수모아 0.5.4 · 파일명 규칙·기관보고 양식 개선",
+  "name": "이수모아 0.5.5 · 통일교육 규칙·내보내기 개선 통합",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-29T04:13:50Z",
-  "updated_at": "2026-10-29T06:31:04Z",
-  "published_at": "2026-10-29T06:31:04Z",
+  "created_at": "2026-10-29T06:31:08Z",
+  "updated_at": "2026-10-29T11:02:07Z",
+  "published_at": "2026-10-29T11:02:07Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/assets/687584489",
-      "id": 687584489,
-      "node_id": "RA_kwDOVad-5M4o-7Tp",
-      "name": "isumoa-setup-0.5.4-win-x64.exe",
+      "url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/assets/688261620",
+      "id": 688261620,
+      "node_id": "RA_kwDOVad-5M4pBgn0",
+      "name": "isumoa-setup-0.5.5-win-x64.exe",
       "label": "",
       "uploader": {
         "login": "MuyeongKim",
@@ -65,18 +65,18 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 118445029,
-      "digest": "sha256:6f62bfda0ca7a7092a5dda8c7548ff23683acd9e61c149760469833ecbc4a8df",
+      "size": 118458244,
+      "digest": "sha256:0c8c9cc8b92995f60eed39cd0d74b66db59b4f6b5b97685e1c26bcb44c0333e4",
       "download_count": 0,
-      "created_at": "2026-10-29T06:22:29Z",
-      "updated_at": "2026-10-29T06:22:53Z",
-      "browser_download_url": "https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.4/isumoa-setup-0.5.4-win-x64.exe"
+      "created_at": "2026-10-29T11:00:05Z",
+      "updated_at": "2026-10-29T11:00:13Z",
+      "browser_download_url": "https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.5/isumoa-setup-0.5.5-win-x64.exe"
     },
     {
-      "url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/assets/687590390",
-      "id": 687590390,
-      "node_id": "RA_kwDOVad-5M4o-8v2",
-      "name": "isumoa-setup-0.5.4-win-x64.zip",
+      "url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/assets/688261625",
+      "id": 688261625,
+      "node_id": "RA_kwDOVad-5M4pBgn5",
+      "name": "isumoa-setup-0.5.5-win-x64.zip",
       "label": "",
       "uploader": {
         "login": "MuyeongKim",
@@ -101,18 +101,18 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 179926108,
-      "digest": "sha256:93968b6e9e6439e6e3fdddc7d9a292f1ab583e8dc2cc0a56493ab93a03c662f0",
+      "size": 179929471,
+      "digest": "sha256:466531a163ada7a43a50b15d1941b051c0c3f8324c80b7297eb9f27b554e4797",
       "download_count": 0,
-      "created_at": "2026-10-29T06:25:37Z",
-      "updated_at": "2026-10-29T06:26:14Z",
-      "browser_download_url": "https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.4/isumoa-setup-0.5.4-win-x64.zip"
+      "created_at": "2026-10-29T11:00:05Z",
+      "updated_at": "2026-10-29T11:00:17Z",
+      "browser_download_url": "https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.5/isumoa-setup-0.5.5-win-x64.zip"
     },
     {
-      "url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/assets/687342311",
-      "id": 687342311,
-      "node_id": "RA_kwDOVad-5M4o-ALn",
-      "name": "PC-install-guide-0.5.4.md",
+      "url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/assets/688261629",
+      "id": 688261629,
+      "node_id": "RA_kwDOVad-5M4pBgn9",
+      "name": "PC-install-guide-0.5.5.md",
       "label": "",
       "uploader": {
         "login": "MuyeongKim",
@@ -140,14 +140,14 @@
       "size": 7410,
       "digest": "sha256:18612d1e11c141420617ad8b269adfabed03783ebc23e7600bd8947bb4630ab6",
       "download_count": 0,
-      "created_at": "2026-10-29T04:27:14Z",
-      "updated_at": "2026-10-29T04:27:14Z",
-      "browser_download_url": "https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.4/PC-install-guide-0.5.4.md"
+      "created_at": "2026-10-29T11:00:05Z",
+      "updated_at": "2026-10-29T11:00:05Z",
+      "browser_download_url": "https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.5/PC-install-guide-0.5.5.md"
     },
     {
-      "url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/assets/687342310",
-      "id": 687342310,
-      "node_id": "RA_kwDOVad-5M4o-ALm",
+      "url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/assets/688261627",
+      "id": 688261627,
+      "node_id": "RA_kwDOVad-5M4pBgn7",
       "name": "SHA256SUMS",
       "label": "",
       "uploader": {
@@ -174,17 +174,17 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 379,
-      "digest": "sha256:f369847aa651f5266d334f2ce1b882e55d69641e58e2a061a11e0ec30bfceaaf",
+      "digest": "sha256:cc4b5e71ae91640ef1c9485645d8213c3e1dd8c17af66f028d35a40c163bf855",
       "download_count": 0,
-      "created_at": "2026-10-29T04:27:14Z",
-      "updated_at": "2026-10-29T04:27:14Z",
-      "browser_download_url": "https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.4/SHA256SUMS"
+      "created_at": "2026-10-29T11:00:05Z",
+      "updated_at": "2026-10-29T11:00:05Z",
+      "browser_download_url": "https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.5/SHA256SUMS"
     },
     {
-      "url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/assets/687342308",
-      "id": 687342308,
-      "node_id": "RA_kwDOVad-5M4o-ALk",
-      "name": "validation-report-0.5.4.md",
+      "url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/assets/688261626",
+      "id": 688261626,
+      "node_id": "RA_kwDOVad-5M4pBgn6",
+      "name": "validation-report-0.5.5.md",
       "label": "",
       "uploader": {
         "login": "MuyeongKim",
@@ -209,15 +209,15 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 2822,
-      "digest": "sha256:929a87e723f86f75217c7dd33f5495a7f7130e93373959090fcc7a414e95604a",
+      "size": 3291,
+      "digest": "sha256:4fa3b809a128e9fa92d23a71937ffff8298264b4e81aec84b00143ee8e9adad1",
       "download_count": 0,
-      "created_at": "2026-10-29T04:27:14Z",
-      "updated_at": "2026-10-29T04:27:14Z",
-      "browser_download_url": "https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.4/validation-report-0.5.4.md"
+      "created_at": "2026-10-29T11:00:05Z",
+      "updated_at": "2026-10-29T11:00:05Z",
+      "browser_download_url": "https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.5/validation-report-0.5.5.md"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/tarball/v0.5.4",
-  "zipball_url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/zipball/v0.5.4",
-  "body": "# 이수모아 0.5.4 · 수료증 파일명·기관보고 양식\n\n개별 수료증 ZIP에서 공통 파일명 규칙과 ZIP 제목을 직접 입력할 수 있습니다. {연도}·{부서}·{성명}·{사번}·{교육명}·{과정명}·{이수일}·{증서번호}를 지원하며 미리보기와 Windows 파일명 처리를 동일하게 적용합니다. 확장자는 한 번만 붙이고 같은 이름은 번호로 구분합니다.\n\n기관 제출 양식에 등록한 교육별16시트 서식을 자동으로 인식해 모든 시트를 채웁니다. 이전 일반 명단 기능은 선택한 한 시트만 채웠습니다. 원본 제목·머리글·기본 서식을 유지하고 기관·부서·계급·교육내역·증서번호를 채우며, 예시 자료·고정 현원·외부 조직도 이름 연결을 제거합니다. 일반 사용자 양식은 기존 기능을 유지합니다.\n\n적용 교육기준 전체 충족 및 검수 대기 없음 조건은 기관 제출 양식 경로에도 동일하게 적용합니다. 미충족은 현재 화면에 안내하고, 다운로드 오류가 JSON 화면으로 이동하지 않도록 고쳤습니다. 기존 기록·교육 기준·인식·중복·주제 충돌 검증 규칙은 유지합니다.\n\n## 확인\n\n- 전체 회귀40개 파일343개 및 TypeScript검사 통과. 최종 서식의 내보내기 관련19개 회귀 재확인.\n- 실제 첨부 원본을 분리된 가상앱에 업로드→16시트 자동 인식→저장→실제 다운로드 확인. 모든시트 이수인원2명·현원빈칸·실제증서번호·날짜타입·청렴2+3시간4행 확인. 날짜·시간 표기도 렌더링으로 확인했습니다.\n- 충족 상태 확인 후 일부 자료가 바뀌는 상황에서 서버409·화면 내 오류 안내·재확인 후 차단 확인.\n- 사용자가 직접 입력한 공통규칙으로 ZIP다운로드,34개PDF의 파일명과1쪽씩 내용을 확인했습니다.\n- EXE에서 추출한 프로그램·설치 파일 12,182개의 SHA-256이 패키징 원본과 일치했습니다. Windows x64 네이티브9개·로컬OCR모델 및 보고 기본양식 포함, 운영DB·계정·원본수료증 미포함 점검.\n- PowerShell 유지보수35항목과 별도 프로세스 잠금3항목 확인.\n\n미서명 부서 시범운용용입니다. Windows 실기기 설치·실제 업데이트·Excel/한셀 화면과 인쇄·기관 백신 검사는 별도 미검증입니다. 먼저 시험PC와 복사한 자료로 확인하세요. 기존0.5.0이상은 설정의 업데이트 또는 최신EXE 덮어 설치를 사용합니다. 원본·DB·백업 자체 암호화는 없어 PC와 백업 접근 권한을 관리해야 합니다.\n\n부서별 파일에 다른 부서 자료가 섞이지 않도록 부서 미지정 범위도 명시적으로 제한하는 검증을 추가했습니다.\n"
+  "tarball_url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/tarball/v0.5.5",
+  "zipball_url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/zipball/v0.5.5",
+  "body": "국립통일교육원 공식 과정 인식 규칙을 보완하고 지금까지의 기능 수정을 포함한 Windows 배포판입니다.\n\n- 공식 공공과정 47개의 과정명·발급기관·2026년을 함께 대조해 통일교육 후보로 연결합니다.\n- 안보교육 오연결은 개별·일괄 확정을 막습니다. 다른 기관의 동명 과정, 판독이 깨진 제목, 개설 예정 과정과 마이크로러닝은 자동 연결하지 않고 검수 대상으로 남깁니다.\n- 수료증 시간은 유지하며 공식 과정표와 다르면 경고합니다. 차시 수를 시간으로 바꾸지 않습니다. 기존 확정 이수기록은 자동 변경하지 않습니다.\n- 개별 수료증 ZIP의 공통 파일명 규칙·ZIP 제목 입력, 교육별 16시트 기관보고 양식 자동 출력, 다운로드 오류 안내, ZIP 수료증 일괄 업로드 등 이전 개선을 모두 포함합니다.\n\n### 설치·업데이트\n\n일반 사용자는 **isumoa-setup-0.5.5-win-x64.exe**를 내려받아 실행하세요. Node.js와 OCR 구성요소가 포함되어 있습니다. 기존 0.5.0 이상은 **설정 → 업데이트**에서도 확인할 수 있습니다. 0.4.3 이하는 EXE를 직접 실행해 업데이트하세요. 먼저 앱에서 자료 백업이 정상 완료되는지 확인하세요.\n\nZIP은 대체 설치 방식이며, 압축을 풀고 설치.bat을 실행합니다. 설치 안내·검증 요약·SHA256SUMS를 함께 제공합니다.\n\n### 검증 범위\n\n자동 회귀 424개·타입 검사, 가상 PDF 실제 업로드와 잘못된 연결의 확정 차단을 확인했습니다. 기관보고 양식은 재등록·다운로드·16시트 구조 검사·macOS Numbers 실제 열기를 확인했습니다. 당시 구버전에서 발생했던 Excel 오류의 정확한 원인은 확인되지 않았습니다.\n\n미서명 부서 시범운용용입니다. **Windows 실기기 설치·실제 업데이트·Windows Excel/한셀 열기·인쇄·기관 백신 검사는 별도 미확인**입니다. 상세 패키징·유지보수 검증은 첨부 validation-report-0.5.5.md를 확인하세요.\n\n소스 기준: `a1c92086ba59d364b1f6d05f03e3dd7c3bc76c81`.\n"
 }
