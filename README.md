@@ -4,16 +4,16 @@
 
 EXE로 설치하면 필요한 실행 환경과 OCR 구성요소가 함께 설치됩니다. 수료증 판독·업무 자료 보관은 사용하는 PC에서 이루어지고, 화면은 Edge·Chrome 같은 브라우저에서 열립니다.
 
-## 0.5.6 다운로드
+## 0.5.7 다운로드
 
 | 받을 파일 | 용도 |
 |---|---|
-| **[Windows 설치 EXE 다운로드](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.6/isumoa-setup-0.5.6-win-x64.exe)** | **일반 사용자 권장. 내려받아 실행하세요.** |
-| [ZIP 설치판](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.6/isumoa-setup-0.5.6-win-x64.zip) | 압축을 풀고 `설치.bat`을 실행하는 대체 방식 |
-| [PC 설치 안내](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.6/PC-install-guide-0.5.6.md) | 설치·자료 위치·업데이트·제거 방법 |
-| [검증 결과와 확인할 범위](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.6/validation-report-0.5.6.md) | 수행한 검증과 Windows 실기기 미확인 항목 |
-| [SHA-256 체크섬](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.6/SHA256SUMS.txt) | 내려받은 파일의 무결성 확인 |
-| [Windows·직원 실측용 모의 검증 꾸러미](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.6/pilot-validation-kit-0.5.6.zip) | 업무 자료와 분리된 검증 절차·가상 자료·공란 실측표 |
+| **[Windows 설치 EXE 다운로드](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.7/isumoa-setup-0.5.7-win-x64.exe)** | **일반 사용자 권장. 내려받아 실행하세요.** |
+| [ZIP 설치판](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.7/isumoa-setup-0.5.7-win-x64.zip) | 압축을 풀고 `설치.bat`을 실행하는 대체 방식 |
+| [PC 설치 안내](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.7/PC-install-guide-0.5.7.md) | 설치·자료 위치·업데이트·제거 방법 |
+| [검증 결과와 확인할 범위](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.7/validation-report-0.5.7.md) | 수행한 검증과 Windows 실기기 미확인 항목 |
+| [SHA-256 체크섬](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.7/SHA256SUMS.txt) | 내려받은 파일의 무결성 확인 |
+| [Windows·직원 실측용 모의 검증 꾸러미](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.7/pilot-validation-kit-0.5.7.zip) | 업무 자료와 분리된 검증 절차·가상 자료·공란 실측표 |
 | [최신 릴리스 전체 보기](https://github.com/MuyeongKim/isumoa-releases/releases/latest) | 최신 버전과 변경 사항 |
 
 **GitHub 로그인 없이 다운로드**할 수 있습니다. **Windows 10·11 64비트**, 설치 시 디스크 여유 공간 **2GB 이상**이 필요하며 자료가 쌓이면 추가 공간이 필요합니다.
@@ -31,8 +31,9 @@ EXE로 설치하면 필요한 실행 환경과 OCR 구성요소가 함께 설치
 
 [전체 사용설명서](https://github.com/MuyeongKim/isumoa/blob/main/docs/사용설명서.md)에서 화면별 조작 방법을 확인할 수 있습니다.
 
-## 주요 기능과 0.5.6 변경 사항
+## 주요 기능과 0.5.7 변경 사항
 
+- 기준 미충족 상태에서도 명단 엑셀을 받을 수 있습니다. 확정한 부분이수 내역·부족 기준을 표시하고, 교육별 완료 인원은 별도로 셉니다.
 - 검수 원본 옆에 선택한 인정 교육·시간을 고정 표시하고, 교육·직원·상세값을 별도 창에서 수정합니다. 확정·제외를 스크롤 없이 사용할 수 있습니다.
 - 줄바꿈 날짜·기간과 손상된 PDF 글자층 처리를 보완하고 최신 파일 검색 의존성 보안 공지를 반영했습니다.
 - 직원 엑셀 템플릿 일괄 등록, 부서·직원·교육 기준의 선택 삭제와 복원
@@ -43,7 +44,7 @@ EXE로 설치하면 필요한 실행 환경과 OCR 구성요소가 함께 설치
 - 국립통일교육원 공식 공공과정 **47개**의 과정명·발급기관·2026년 대조. 안보교육 오연결의 확정을 차단하고, 다른 기관의 동명 과정·깨진 제목·개설 예정·마이크로러닝은 자동 연결하지 않고 검수 대상으로 남깁니다.
 - 수료증 시간은 유지하고 공식 과정표와 다르면 경고합니다. 차시를 시간으로 바꾸지 않으며 기존 확정 이수기록은 자동 변경하지 않습니다.
 
-최종 제출 명단(16시트)과 같은 형식으로 등록한 기관보고 양식은 선택 범위의 적용 교육을 모두 충족하고 검수 대기가 없어야 출력됩니다. 현원은 빈칸이며, 같은 직원의 여러 증서는 각각 기록하되 이수 인원은 한 명으로 계산합니다.
+수료자 명단(16시트)과 같은 형식의 기관보고 양식은 기준 미충족·검수 대기가 있어도 현재 확정된 내역으로 받을 수 있습니다. 부분이수는 비고에 표시하며 교육별 이수인원은 실제 기준을 충족한 직원만 셉니다. 검수 대기·제외 건은 포함하지 않습니다.
 
 ## 업데이트와 자료 보관
 
@@ -56,8 +57,8 @@ EXE로 설치하면 필요한 실행 환경과 OCR 구성요소가 함께 설치
 
 ## 검증과 시범운용 범위
 
-0.5.6 소스의 **자동검증 432개·타입 검사**, 설치파일 추출·구성요소·업로드 체크섬 검증을 통과했습니다. 기관보고 결과는 CUA 실제 다운로드와 16시트 ZIP·XML 구조를 검사했습니다.
+0.5.7 소스의 **자동검증 434개·타입 검사**, 설치파일 추출·구성요소·업로드 체크섬 검증을 통과했습니다. 기관보고 결과는 CUA 실제 다운로드와 16시트 ZIP·XML 구조를 검사했습니다.
 
-**미서명 부서 시범운용용**입니다. Windows 실기기 설치·실제 업데이트·Windows Excel/한셀 열기·인쇄·기관 백신 검사는 별도 미확인입니다. 먼저 시험용 PC와 복사한 자료로 [릴리스 검증 요약](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.6/validation-report-0.5.6.md)의 항목을 확인하세요.
+**미서명 부서 시범운용용**입니다. Windows 실기기 설치·실제 업데이트·Windows Excel/한셀 열기·인쇄·기관 백신 검사는 별도 미확인입니다. 먼저 시험용 PC와 복사한 자료로 [릴리스 검증 요약](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.7/validation-report-0.5.7.md)의 항목을 확인하세요.
 
 이 저장소는 배포 안내·설치파일·업데이트 정보 전용입니다. 개발용 소스와 문서는 [이수모아 소스 저장소](https://github.com/MuyeongKim/isumoa)에서 관리합니다.
