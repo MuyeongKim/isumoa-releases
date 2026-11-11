@@ -1,30 +1,30 @@
-# <img src="https://raw.githubusercontent.com/MuyeongKim/isumoa/v0.5.12/docs/brand/isumoa-repository-icon.png" width="40" height="40" alt=""> 이수모아
+# <img src="https://raw.githubusercontent.com/MuyeongKim/isumoa/v0.5.13/docs/brand/isumoa-repository-icon.png" width="40" height="40" alt=""> 이수모아
 
 **법정교육 수료증을 검수하고 직원별 이수 현황과 기관 제출 자료를 만드는 Windows 프로그램입니다.**
 
-EXE로 설치하며 Node.js·OCR 구성요소를 따로 설치하지 않습니다. LLM이 없는 PC에서도 기본 업무를 사용할 수 있습니다.
+설치 파일에 판독에 필요한 구성요소가 들어 있습니다. 프로그램을 열면 브라우저에서 명단을 등록하고 수료증을 검수할 수 있습니다.
 
-![가상 자료로 원본과 인정 교육을 대조하는 검수함](https://raw.githubusercontent.com/MuyeongKim/isumoa/v0.5.12/docs/images/review.webp)
+![가상 자료로 원본과 인정 교육을 대조하는 검수함](https://github.com/MuyeongKim/isumoa/raw/v0.5.13/docs/images/review.webp)
 
 ## 다운로드·접속 주소
 
-**0.5.12** — [Windows EXE](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.12/isumoa-setup-0.5.12-win-x64.exe) | [Windows ZIP](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.12/isumoa-setup-0.5.12-win-x64.zip) | [모의자료 ZIP](https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.12/demo-samples-0.5.12.zip) | [전체 릴리즈](https://github.com/MuyeongKim/isumoa-releases/releases/latest)
-이수모아를 처음 실행하면 브라우저가 열립니다. 기본 접속 주소는 PC 내부 주소인 `http://127.0.0.1:47210`입니다.
-최근 변경: [0.5.12 릴리즈 노트](https://github.com/MuyeongKim/isumoa/blob/v0.5.12/docs/%EA%B2%80%EC%A6%9D%EA%B8%B0%EB%A1%9D/releases/0.5.12.md)
+Windows 64비트 EXE, ZIP 설치판, 가상 모의자료와 체크섬은 공개 배포 페이지에서 받을 수 있습니다. [이수모아 0.5.13 다운로드](https://github.com/MuyeongKim/isumoa-releases/releases/tag/v0.5.13)
+
+세션 1 심사용 Windows 64비트 설치 파일은 공공 GitLab에서 받습니다. 프로젝트 열람 권한이 있는 계정으로 로그인하고 릴리스에서 `isumoa-setup-0.5.13-win-x64.exe`와 가상 모의자료 `isumoa-session1-sample-data.zip`을 받으세요. [공공 GitLab v0.5.13 릴리스](https://gitlab.aigov.go.kr/tenmoo/isumoa/-/releases/v0.5.13)
+
+Windows EXE의 SHA-256은 `f0458be39f80057b90576ceb2b2b9764f86193bdfe11d4f48614b77a17255737`입니다.
+
+이수모아를 실행하면 설치한 PC의 브라우저에서 `http://127.0.0.1:47210`이 열립니다.
+
+0.5.13은 수료자 명단을 내보낼 때 원본 서식의 증서번호 중복 표시 규칙을 보존하고, Windows 설치 화면에 파일 풀기와 프로그램 설치·확인 단계를 표시합니다.
 
 ## 해결하려는 문제와 개발 경위
 
-- **주제:** 법정교육 이수증 검수와 기관보고 자료 작성의 행정업무 효율화
-- **제작자:** 김무영(전북특별자치도 완주소방서)
-- **준비 분야:** 2026 공공 AI 대전환 챌린지 세션1, 자유주제
-- **결과물:** Windows 설치형 프로그램과 소스코드, 사용 안내, 가상 모의자료
+이수모아는 2026년 공공 AI 대전환 챌린지 세션 1 자유주제로 출품합니다. Windows 설치판과 소스코드, 구동안내서, 실제 앱 시연영상, 가상 모의자료를 준비했습니다.
 
-직원이 낸 수료증은 기관마다 서식이 다르고 여러 장이 하나의 스캔 PDF에 섞이기도 합니다. 담당자는 이름·교육·날짜·시간을 옮겨 적고 직원 명단·교육 기준과 대조하며, 중복 제출과 잘못된 교육 연결을 다시 확인해야 합니다.
-이수모아는 **로컬 AI-OCR → 규칙 대조 → 담당자 원본 검수 → 현황·보고서 출력**을 연결해 반복 입력과 자료 취합 부담을 줄이려 합니다. 인정 범위와 최종 확정은 담당자가 결정합니다.
-현재는 부서 시범운용 단계입니다.
+수료증은 발급기관마다 양식이 다릅니다. 여러 장을 한 PDF로 스캔해 제출하면 담당자는 한 장씩 열어 이름, 교육명, 날짜, 시간을 옮겨 적고 직원 명단과 교육 기준을 대조해야 합니다. 중복으로 들어온 수료증이나 비슷한 이름의 교육도 따로 확인합니다.
 
-엑셀 수기 작업과의 소요 시간 비교는 현재 측정 전입니다.
-<!-- TODO(실측): 직원 N명, 엑셀 수기 대비 소요 시간 비교 결과 -->
+부서 서무가 직원별 법정 사이버 의무교육 이수증을 열어 이수번호를 엑셀에 옮겨 적는 모습을 보고 이수모아를 만들었습니다. 같은 업무를 맡은 다른 부서에서도 쓸 수 있도록, 이수증 판독부터 집계까지 한 흐름으로 연결했습니다. 프로그램이 수료증을 읽어 교육 기준과 대조하면 담당자가 검수함에서 원본을 보고 인정할 교육을 정합니다. 확정한 자료는 직원별 이수 현황과 기관 제출 자료에 반영됩니다.
 
 ## 주요 기능
 
@@ -36,36 +36,38 @@ EXE로 설치하며 Node.js·OCR 구성요소를 따로 설치하지 않습니�
 | 인정 확인 | 주제 충돌과 동일 수료증 중복 확정 차단, 불명확한 범위 표시 |
 | 현황·출력 | 미이수 필터, 16시트 명단과 제출 양식, 합본 PDF, 파일명 지정 ZIP |
 | 규칙·관리 | 규칙 JSON 편집과 복원, 선택형 로컬 AI, 백업과 업데이트 |
+
 ## 실행 환경
 
 | 항목 | 환경 |
 |---|---|
 | 운영체제 | Windows 10·11 64비트(x64) |
 | 브라우저 | Edge 또는 Chrome |
-| 필요 소프트웨어 | EXE에 Node.js와 OCR 엔진, 한국어 모델 포함 |
+| 필요 소프트웨어 | 설치판에 Node.js, OCR 엔진, 한국어 모델 포함 |
 | 디스크 | 설치 시 여유 공간 2GB 이상, 자료와 백업에 추가 공간 사용 |
 | 연산 | 기본 OCR은 CPU 실행. 선택형 LLM의 사양은 모델에 따름 |
 | 접속 | 바탕화면의 이수모아 실행 시 브라우저가 열림. 기본 주소 `http://127.0.0.1:47210` |
 | 인터넷 | 배포판과 업데이트 다운로드에 사용. 기본 업무는 로컬 처리 |
+
 ## 설치·실행 방법
 
-1. Windows 설치 EXE를 내려받아 실행합니다.
-2. 바탕화면의 **이수모아**를 열고 기관명과 관리자 계정을 만듭니다.
+1. 위 릴리스에서 Windows EXE를 받습니다. 다운로드한 폴더에서 PowerShell을 열고 `Get-FileHash .\isumoa-setup-0.5.13-win-x64.exe -Algorithm SHA256`을 실행합니다. 결과가 위에 적힌 SHA-256과 같으면 EXE를 실행하세요. ZIP 설치판을 받았다면 압축을 모두 풀고 `설치.bat`을 실행합니다.
+2. 바탕화면의 **이수모아**를 열고 기관명과 관리자 계정을 만듭니다. 기존 업무 자료와 분리된 환경에서 모의 시연을 진행하세요.
 3. **직원 명단 → 일괄 등록 → 빈 양식 다운로드**의 엑셀을 채워 올리고 미리보기를 확인합니다.
 4. **교육 기준**에서 16개 기본 교육을 기관 지침에 맞춥니다. 개인정보보호 기본값은 연 1시간입니다.
 5. **수료증 올리기**에서 PDF, 사진 또는 ZIP을 고릅니다.
 6. **검수함**에서 원본과 직원, 인정 교육, 날짜, 시간, 증서번호를 대조해 확정하거나 제외합니다.
 7. **이수 현황**을 확인하고 **내보내기**에서 종류, 범위, 다운로드 사유를 골라 받습니다.
 
-업무 자료는 `%LOCALAPPDATA%\isumoa`에 보관합니다. 백업은 **설정 → 백업·보관**에서 하며, 복원은 [PC 설치 안내](https://github.com/MuyeongKim/isumoa/blob/v0.5.12/docs/%EC%82%AC%EC%9A%A9%EC%9E%90/PC%EC%84%A4%EC%B9%98%EC%95%88%EB%82%B4.md)의 절차를 따릅니다.
+업무 자료는 `%LOCALAPPDATA%\isumoa`에 저장합니다. **설정 → 백업·보관**에서 백업을 만들 수 있습니다. 복원 순서는 설치 안내를 참고하세요. [PC 설치 안내](https://github.com/MuyeongKim/isumoa/blob/v0.5.13/docs/%EC%82%AC%EC%9A%A9%EC%9E%90/PC%EC%84%A4%EC%B9%98%EC%95%88%EB%82%B4.md)
 
-SmartScreen 경고 화면과 대처 절차는 현재 확인 전입니다.
-<!-- TODO(SmartScreen): 경고 화면 캡처와 "추가 정보 → 실행" 안내 -->
+이 설치본에는 코드 서명이 없습니다. SmartScreen이나 기관 보안 프로그램에서 설치를 막으면 파일 출처와 SHA-256, 차단 화면을 정보화 담당자에게 전달해 확인받으세요.
 
 ## AI 구성과 LLM 설정
 
-① 로컬 OCR(핵심 AI: kordoc + 한국어 PP-OCRv5, 대체 tesseract.js) → ② 규칙 대조 → ③ 선택형 로컬 LLM. 최종 확정은 담당자가 합니다.
-③은 선택 기능입니다. LLM이 없어도 판독·검수·현황·출력을 모두 사용할 수 있습니다.
+수료증은 설치한 PC에서 kordoc과 한국어 PP-OCRv5로 읽습니다. 기본 OCR을 실행할 수 없으면 tesseract.js로 판독합니다. 읽은 값은 등록한 규칙과 대조하며, 최종 확정은 담당자가 합니다.
+
+판독부터 출력까지는 설치판만으로 사용할 수 있습니다. 검수 중 AI의 제안이 필요한 경우 로컬 LLM을 켤 수 있습니다. 기본 설정은 꺼짐이며, 사용할 생성 모델은 별도로 준비합니다.
 
 1. 같은 PC에서 Ollama와 사용할 로컬 생성 모델을 준비합니다.
 2. **설정 → 로컬 AI(선택)**에서 `http://127.0.0.1:11434`의 연결 테스트와 모델 목록을 누릅니다.
@@ -75,28 +77,34 @@ SmartScreen 경고 화면과 대처 절차는 현재 확인 전입니다.
 
 ## 모의데이터로 시연하기
 
+가상 모의자료 ZIP을 풀면 직원 명단과 수료증이 나옵니다. 업무 자료와 분리한 시연 환경에서 명단을 먼저 올린 뒤 수료증을 검수해 보세요.
+
 | ZIP 구성 | 용도 |
 |---|---|
 | `직원명단_2026.xlsx` | 직원 120명, 8부서 일괄 등록 |
 | `이수증/스캔묶음_재무과.pdf` | 스캔 묶음 40쪽 |
 | `이수증/개별/*.pdf` | PDF 10개. 묶음과 합계 11개 파일, 50쪽 |
-| `정답.json` | 개발용 판독 비교 정답 |
+| `정답.json` | 판독 결과 비교용. 프로그램에 올리는 자료에서 제외 |
 | `모의자료_사용안내.md` | 가상 자료의 구성과 확인 순서 |
 
-1. **읽기·검수:** 직원과 수료증을 올립니다. 폭력예방 20건을 검색해 대조하고, **이수증 아닌 쪽 2건 한 번에 제외**를 누릅니다. 정상 자료를 모두 확정하면 **확정 48건, 제외 2건**입니다.
-2. **중복·충돌 확인:** 확정한 파일을 다시 올려 중복 건너뛰기를 확인합니다. 주제 충돌이 있는 자료는 연결을 바로잡습니다.
-3. **출력:** 현황 칸에서 근거 수료증을 봅니다. **내보내기 → 수료자 명단(16시트)**에서 엑셀을 받고 합본 PDF와 개별 ZIP도 확인합니다.
-   이수 현황의 대상은 118명입니다. 모의 명단의 휴직 1명과 파견 1명은 대상에서 빠집니다.
+1. **직원 등록**. **직원 명단 → 일괄 등록**에서 `직원명단_2026.xlsx`를 올리고 미리보기를 확인한 뒤 직원 120명·8부서를 등록합니다.
+2. **판독·검수**. **수료증 올리기**에서 PDF 11개를 올립니다. **검수함**에서 폭력예방교육 20건을 검색해 원본과 대조합니다. 비수료 자료 2쪽을 일괄 제외하고 정상 자료를 모두 확정하면 **확정 48건, 제외 2건, 검수 대기 0건**입니다.
+3. **중복·충돌 확인**. 확정한 파일을 다시 올려 중복 건너뛰기를 확인합니다. 주제 충돌이 표시되면 원본을 확인해 교육 연결을 바로잡습니다.
+4. **현황·출력**. **이수 현황**의 대상은 휴직 1명과 파견 1명을 뺀 **118명**입니다. 현황 칸에서 근거 수료증을 열고 **내보내기 → 수료자 명단(16시트)**에서 XLSX를 받습니다. 합본 PDF와 개별 ZIP도 내보낼 수 있습니다.
 
-## 제약사항과 개인정보
+### 실제 앱 시연영상과 검증 범위
 
-- 미서명 부서 시범운용용입니다. 전 기관 도입과 타 부서 독립 사용 실적, 실제 2종 LLM 비교는 미확인입니다. 생성형 모델은 설치판에 포함하지 않습니다.
-- Windows 10/11 실기기 설치와 실행, 실제 Excel/한셀 열기와 인쇄, 기관 백신 결과는 현재 확인 전입니다.
-<!-- TODO(Windows): Windows 10/11 실기기 설치·실행·Excel 열기 결과 -->
+제출용 **2분 15초 MP4**는 Windows PC에서 이수모아 0.5.13을 설치하고 처음 실행하는 장면부터 시작합니다. 가상 직원 120명과 8개 부서를 등록하고 PDF 11개·50쪽을 판독했습니다. 정상 자료 48건을 확정하고 이수증이 아닌 2쪽을 제외했습니다. 이수 현황의 대상은 118명입니다.
+
+영상의 1분 51초부터 Microsoft Excel 화면이 나옵니다. Windows에서 내보낸 명단을 복구 안내 없이 열고 교육별 16시트와 수료자 행을 확인했습니다. 이번 확인은 Windows PC 1대와 가상 자료를 사용했습니다. Windows 업데이트, 한셀 열기·인쇄, 기관 보안 프로그램, 수기 대비 소요 시간 및 LLM 모델 비교는 별도 확인 항목입니다. [Windows 확인 결과와 재현 절차](https://github.com/MuyeongKim/isumoa/blob/v0.5.13/docs/session1/WINDOWS.md)
+
+## 자료 처리와 제약사항
+
 - OCR 결과는 원본 대조가 필요합니다. 로컬 AI는 개인정보를 가린 일부 텍스트로 의견을 제안하며, 가림과 정확도를 보장하지 않습니다. 불명확한 표는 AI 요청을 보류합니다.
 - DB와 원본, 백업은 앱 자체 암호화가 없습니다. PC와 폴더 권한을 관리하고 백업을 별도 보관하세요. 모의자료는 업무 자료와 섞지 않습니다.
 - 업데이트 확인과 다운로드는 GitHub에 통신합니다. 자동 확인은 기본 꺼짐이며 업무 자료를 보내지 않습니다. 자동 다운로드와 설치, 규칙 적용은 하지 않습니다.
-## 소스 폴더 구조
+
+## 폴더 구조
 
 ```text
 server/        # API, DB, OCR, 검수와 집계
@@ -114,15 +122,17 @@ docs/          # 안내 문서, brand/images/promo/licenses 자료
 └─ session1/   # 공모 제출 준비와 실측 절차
 samples/       # 저장소에는 정답만 보관. PDF는 생성하거나 모의자료 ZIP 사용
 ```
+
 ## 관련 문서
 
-- 사용자: [사용설명서](https://github.com/MuyeongKim/isumoa/blob/v0.5.12/docs/%EC%82%AC%EC%9A%A9%EC%9E%90/%EC%82%AC%EC%9A%A9%EC%84%A4%EB%AA%85%EC%84%9C.md), [PC 설치](https://github.com/MuyeongKim/isumoa/blob/v0.5.12/docs/%EC%82%AC%EC%9A%A9%EC%9E%90/PC%EC%84%A4%EC%B9%98%EC%95%88%EB%82%B4.md), [업데이트](https://github.com/MuyeongKim/isumoa/blob/v0.5.12/docs/%EC%82%AC%EC%9A%A9%EC%9E%90/%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%EC%95%88%EB%82%B4.md), [규칙·로컬 AI](https://github.com/MuyeongKim/isumoa/blob/v0.5.12/docs/%EC%82%AC%EC%9A%A9%EC%9E%90/%EA%B2%80%EC%88%98%EA%B7%9C%EC%B9%99%EA%B3%BC%EB%A1%9C%EC%BB%ACAI.md)
-- 관리자·IT: [운영](https://github.com/MuyeongKim/isumoa/blob/v0.5.12/docs/%EA%B4%80%EB%A6%AC%EC%9E%90/%EC%9A%B4%EC%98%81%EA%B0%80%EC%9D%B4%EB%93%9C.md), [서버 설치](https://github.com/MuyeongKim/isumoa/blob/v0.5.12/docs/%EA%B4%80%EB%A6%AC%EC%9E%90/%EC%84%A4%EC%B9%98%EA%B0%80%EC%9D%B4%EB%93%9C.md), [정보화 담당 확인](https://github.com/MuyeongKim/isumoa/blob/v0.5.12/docs/%EA%B4%80%EB%A6%AC%EC%9E%90/IT-%ED%99%95%EC%9D%B8%EC%9A%94%EC%B2%AD%EC%84%9C.md)
-- 개발: [개발·배포 안내](https://github.com/MuyeongKim/isumoa/blob/v0.5.12/docs/%EA%B0%9C%EB%B0%9C/%EA%B0%9C%EB%B0%9C%EC%95%88%EB%82%B4.md)
-- 검증기록: [릴리즈 검증](https://github.com/MuyeongKim/isumoa/blob/v0.5.12/docs/%EA%B2%80%EC%A6%9D%EA%B8%B0%EB%A1%9D/releases/0.5.12.md)
-- 세션1: [제출 준비](https://github.com/MuyeongKim/isumoa/blob/v0.5.12/docs/session1/README.md)
+- 사용자: [사용설명서](https://github.com/MuyeongKim/isumoa/blob/v0.5.13/docs/%EC%82%AC%EC%9A%A9%EC%9E%90/%EC%82%AC%EC%9A%A9%EC%84%A4%EB%AA%85%EC%84%9C.md), [PC 설치](https://github.com/MuyeongKim/isumoa/blob/v0.5.13/docs/%EC%82%AC%EC%9A%A9%EC%9E%90/PC%EC%84%A4%EC%B9%98%EC%95%88%EB%82%B4.md), [업데이트](https://github.com/MuyeongKim/isumoa/blob/v0.5.13/docs/%EC%82%AC%EC%9A%A9%EC%9E%90/%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%EC%95%88%EB%82%B4.md), [규칙·로컬 AI](https://github.com/MuyeongKim/isumoa/blob/v0.5.13/docs/%EC%82%AC%EC%9A%A9%EC%9E%90/%EA%B2%80%EC%88%98%EA%B7%9C%EC%B9%99%EA%B3%BC%EB%A1%9C%EC%BB%ACAI.md)
+- 관리자·IT: [운영](https://github.com/MuyeongKim/isumoa/blob/v0.5.13/docs/%EA%B4%80%EB%A6%AC%EC%9E%90/%EC%9A%B4%EC%98%81%EA%B0%80%EC%9D%B4%EB%93%9C.md), [서버 설치](https://github.com/MuyeongKim/isumoa/blob/v0.5.13/docs/%EA%B4%80%EB%A6%AC%EC%9E%90/%EC%84%A4%EC%B9%98%EA%B0%80%EC%9D%B4%EB%93%9C.md), [정보화 담당 확인](https://github.com/MuyeongKim/isumoa/blob/v0.5.13/docs/%EA%B4%80%EB%A6%AC%EC%9E%90/IT-%ED%99%95%EC%9D%B8%EC%9A%94%EC%B2%AD%EC%84%9C.md)
+- 개발: [개발·배포 안내](https://github.com/MuyeongKim/isumoa/blob/v0.5.13/docs/%EA%B0%9C%EB%B0%9C/%EA%B0%9C%EB%B0%9C%EC%95%88%EB%82%B4.md)
+- 검증기록: [0.5.13 Windows 확인](https://github.com/MuyeongKim/isumoa/blob/v0.5.13/docs/session1/WINDOWS.md), [이전 0.5.12 릴리스](https://github.com/MuyeongKim/isumoa/blob/v0.5.13/docs/%EA%B2%80%EC%A6%9D%EA%B8%B0%EB%A1%9D/releases/0.5.12.md)
+- 세션 1: [AI와 자료 처리](https://github.com/MuyeongKim/isumoa/blob/v0.5.13/docs/session1/AI-DATA.md), [Windows 검증 절차](https://github.com/MuyeongKim/isumoa/blob/v0.5.13/docs/session1/WINDOWS.md)
+
 ## 제작자·라이선스
 
-제작자: 김무영(전북특별자치도 완주소방서). [구성요소 라이선스](https://github.com/MuyeongKim/isumoa/blob/v0.5.12/docs/licenses/README.md)와 [모델 출처·해시](https://github.com/MuyeongKim/isumoa/blob/v0.5.12/vendor/ocr-models/NOTICE.md)를 참고하세요.
+전북특별자치도 완주소방서 김무영이 제작했습니다. [구성요소 라이선스](https://github.com/MuyeongKim/isumoa/blob/v0.5.13/docs/licenses/README.md) · [모델 출처·해시](https://github.com/MuyeongKim/isumoa/blob/v0.5.13/vendor/ocr-models/NOTICE.md)
 
-이 저장소는 설치 파일 배포용입니다. [소스코드와 문서](https://github.com/MuyeongKim/isumoa/tree/v0.5.12)는 별도 저장소에서 확인할 수 있습니다.
+[0.5.13 소스 저장소](https://github.com/MuyeongKim/isumoa/tree/v0.5.13)
