@@ -33,13 +33,13 @@
   "immutable": false,
   "prerelease": false,
   "created_at": "2026-11-11T03:55:02Z",
-  "updated_at": "2026-11-11T03:55:05Z",
+  "updated_at": "2026-11-11T07:04:34Z",
   "published_at": "2026-11-11T03:55:05Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/assets/734037459",
-      "id": 734037459,
-      "node_id": "RA_kwDOVad-5M4rwIXT",
+      "url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/assets/734513212",
+      "id": 734513212,
+      "node_id": "RA_kwDOVad-5M4rx8g8",
       "name": "isumoa-session1-sample-data.zip",
       "label": "",
       "uploader": {
@@ -65,11 +65,11 @@
       },
       "content_type": "application/zip",
       "state": "uploaded",
-      "size": 15888060,
-      "digest": "sha256:29c8b869d7998fdda52949596dd87f8942e7b16307d396a1df64f9befec96537",
+      "size": 15888061,
+      "digest": "sha256:e7d3da546a4079e48b5fb21e8fdf2d7e556a24c8c2a220178a006eddec9425b8",
       "download_count": 0,
-      "created_at": "2026-11-11T03:52:43Z",
-      "updated_at": "2026-11-11T03:52:45Z",
+      "created_at": "2026-11-11T07:04:33Z",
+      "updated_at": "2026-11-11T07:04:34Z",
       "browser_download_url": "https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.13/isumoa-session1-sample-data.zip"
     },
     {
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 117918668,
       "digest": "sha256:f0458be39f80057b90576ceb2b2b9764f86193bdfe11d4f48614b77a17255737",
-      "download_count": 2,
+      "download_count": 4,
       "created_at": "2026-11-11T03:04:37Z",
       "updated_at": "2026-11-11T03:04:45Z",
       "browser_download_url": "https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.13/isumoa-setup-0.5.13-win-x64.exe"
@@ -139,15 +139,15 @@
       "state": "uploaded",
       "size": 177117817,
       "digest": "sha256:42bb69f1697514a248693421a074b670b00f97b2cb7a698f9850e4b7d2779135",
-      "download_count": 0,
+      "download_count": 2,
       "created_at": "2026-11-11T03:04:37Z",
       "updated_at": "2026-11-11T03:04:49Z",
       "browser_download_url": "https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.13/isumoa-setup-0.5.13-win-x64.zip"
     },
     {
-      "url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/assets/734037619",
-      "id": 734037619,
-      "node_id": "RA_kwDOVad-5M4rwIZz",
+      "url": "https://api.github.com/repos/MuyeongKim/isumoa-releases/releases/assets/734513215",
+      "id": 734513215,
+      "node_id": "RA_kwDOVad-5M4rx8g_",
       "name": "SHA256SUMS.txt",
       "label": "",
       "uploader": {
@@ -174,10 +174,10 @@
       "content_type": "text/plain; charset=utf-8",
       "state": "uploaded",
       "size": 294,
-      "digest": "sha256:714d2149173847d12a7194b083ee4f9befbd841f8be10561e2966d8e25916825",
+      "digest": "sha256:3b6b9e847be5f4527097d57a4fdbb1206105fb7dd27a18d440eb295f2689a2cb",
       "download_count": 0,
-      "created_at": "2026-11-11T03:52:47Z",
-      "updated_at": "2026-11-11T03:52:47Z",
+      "created_at": "2026-11-11T07:04:33Z",
+      "updated_at": "2026-11-11T07:04:33Z",
       "browser_download_url": "https://github.com/MuyeongKim/isumoa-releases/releases/download/v0.5.13/SHA256SUMS.txt"
     }
   ],
